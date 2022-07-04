@@ -20,7 +20,7 @@ TABLE OF CONTENTS:
 >> Footer 2
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
 @font-face {
 	font-family: "myFirstFont";
 	src: url("../fonts/DroidKufi-Regular.ttf");
@@ -43,7 +43,7 @@ TABLE OF CONTENTS:
 body {
 	margin: 0;
 	color: #5b38ab;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -108,10 +108,10 @@ h6 {
 }
 
 p {
-	color: #1B2430;
+	color: #1b2430;
 	margin-bottom: 10px;
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 400;
 	text-transform: capitalize;
 	line-height: 1.5;
@@ -256,7 +256,7 @@ img {
 	display: block;
 	padding: 17px 0px;
 	text-transform: capitalize;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 	-webkit-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
@@ -712,7 +712,7 @@ html {
 }
 
 .footer-area .footer-top .widget ul li a {
-	color: #5b38ab;
+	color: #1b2430;
 	text-transform: capitalize;
 	-webkit-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
@@ -2017,7 +2017,7 @@ html {
 	-o-transition: 0.5s;
 	transition: 0.5s;
 	position: fixed;
-	right: 30px;
+	right: 58px;
 	bottom: 30px;
 	display: none;
 	z-index: 9999;
@@ -3744,7 +3744,7 @@ html {
 
 .single-widget.blog-banner-widget .banner-content h5 {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 }
 
@@ -4527,7 +4527,7 @@ html {
 
 .single-widget.blog-banner-widget .banner-content h5 {
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 }
 
@@ -5294,7 +5294,7 @@ html {
 
 .single-pricing-3 h3 .m-y {
 	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	color: #5b38ab;
 	font-weight: 400;
 	text-transform: lowercase;
@@ -6016,6 +6016,9 @@ html {
 .single-app .app-content {
 	text-align: center;
 }
+.single-app .app-content h6 {
+	color: #1b2430;
+}
 
 .single-app .app-content h4 {
 	margin-bottom: 20px;
@@ -6316,7 +6319,7 @@ html {
 }
 
 .single-pricing2 h2 span {
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 }
@@ -6643,7 +6646,7 @@ html {
 	color: #ffffff;
 	margin-bottom: 0px;
 	font-size: 11px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-weight: 500;
 	text-transform: capitalize;
 }
@@ -6685,7 +6688,7 @@ html {
 	position: relative;
 	width: 100%;
 	min-height: 1px;
-    background-color: #fff;
+	background-color: #fff;
 }
 .boosting-list-tab .tabs li a {
 	display: block;
@@ -6699,7 +6702,11 @@ html {
 	padding-left: 18px;
 	font-size: 15px;
 	font-weight: 700;
-    transition: .2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .boosting-list-tab .tabs li a i {
 	color: #ff912b;
@@ -6712,7 +6719,7 @@ html {
 .boosting-list-tab .tabs li a span {
 	display: block;
 	padding: 5px;
-    text-align: center;
+	text-align: center;
 }
 .boosting-list-tab .tabs li.bg-eff7e9 {
 	background: -webkit-gradient(
@@ -6935,28 +6942,28 @@ html {
 }
 
 /* Implementation Process */
-.single-process{
-    position: relative;
-    z-index: 1;
+.single-process {
+	position: relative;
+	z-index: 1;
 }
-.single-process:after{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-    background-color: #5b38ab;
-    top: 53px;
-    right: -50%;
-    z-index: -1;
+.single-process:after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #5b38ab;
+	top: 53px;
+	right: -50%;
+	z-index: -1;
 }
-.process-wrapper .arrow-icon{
-    position: absolute;
-    top: 40px;
-    right: 0;
-    font-size: 20px;
+.process-wrapper .arrow-icon {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	font-size: 20px;
 }
-.process-wrapper:last-child .single-process::after{
-    display: none;
+.process-wrapper:last-child .single-process::after {
+	display: none;
 }
 .single-process .icon {
 	color: #fff;
@@ -6968,6 +6975,9 @@ html {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-basis: 100px;
+	flex-grow: 0;
+	flex-shrink: 0;
 }
 
 .green-bg {
@@ -6987,8 +6997,8 @@ html {
 }
 
 /* About us */
-#infographic{
-    position: relative;
+#infographic {
+	position: relative;
 }
 #infographic .circle {
 	width: 320px;
@@ -7002,8 +7012,8 @@ html {
 	padding: 40px;
 	position: absolute;
 	left: 0;
-    right: 0;
-    margin: auto;
+	right: 0;
+	margin: auto;
 }
 #infographic :not(:nth-child(even)) .circle {
 	/* transform: translateX(-100%); */
@@ -7090,7 +7100,7 @@ html {
 	margin-left: calc(100% - 415px);
 }
 #infographic article[data-step="9"] {
-    margin-left: calc(100% - 365px);
+	margin-left: calc(100% - 365px);
 }
 #infographic article[data-step="10"] {
 	margin-left: calc(100% - 365px);
@@ -7114,7 +7124,7 @@ html {
 	margin-left: -250px;
 }
 #infographic .one article header {
-	background-color: rgba(37, 59, 143, 0.3);
+	background-color: rgba(37, 59, 143, 0.1);
 	color: #8f2543;
 }
 #infographic .one article header i {
@@ -7151,4 +7161,76 @@ html {
 }
 #infographic .two article.active header {
 	border-bottom-left-radius: 0;
+}
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.boosting-list-tab .tabs li a span {
+		font-size: 12px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+	.single-process {
+		display: inline-flex;
+		align-items: center;
+        margin-bottom: 5rem;
+        width: 100%;
+	}
+    .single-process:after{
+        width: 2px;
+        height: 100%;
+        top: 91px;
+        right: 0;
+        left: 49px;
+    }
+    .process-wrapper .arrow-icon {
+        top: 125px;
+        left: 56px;
+        font-size: 20px;
+        right: unset;
+    }
+    .fa-chevron-right:before {
+        content: "\f078";
+    }
+    .single-process .icon{
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+    .single-process .details {
+        width: 100%;
+    }
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+	#infographic .circle {
+		display: none;
+	}
+	#infographic article {
+		max-width: 100%;
+		margin-left: 0 !important;
+		margin-right: 0;
+	}
+	#infographic article header i {
+		margin: -16px 0 -16px !important;
+	}
+    .download-area .item-bounce{
+        max-width: 50%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .social-btns{
+        justify-content: center;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#infographic .circle {
+		width: 220px;
+		height: 220px;
+		top: 128px;
+	}
 }
